@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Mr+Dafoe&family=Titillium+Web:wght@900&display=swap');
+body {
+    /* background-image: url('Imagenes/d89lp3v-f9dec57e-f1af-4b75-8dcd-a7fb4bcabf90.gif'); */
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: contain;
+    background-image: url('Imagenes/580b3c4d5091d0e99e2de8ee46099f2d_w200.gif');
+}
+.fondo2 {
+    height: 800%;
+    width: 1450px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(255, 175, 248, 0.575);
+}
+.dibujo1 {
+    display: flex;
+    position: absolute;
+    width: 500px;
+    bottom: 130px;
+    left: 980px;
+}
+.titulo {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    font-size: 200px;
+    color: white;
+    padding: 50 50;
+    bottom: 160px;
+    left: 25px;
+    width: 1290px;
+    mix-blend-mode:multiply;
+    border-radius: 10px;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    background-color: rgba(37, 37, 37);
+    /* background-image: linear-gradient(to right, black , white);; */
+    -webkit-text-stroke: 6px #f008b7;
+    /* -webkit-filter: drop-shadow(2px 2px 20px #f008b7); */
+}
+
+.titulo2 {
+    display: flex;
+    position: absolute;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 180px;
+    color: #F975F7 ;
+    transform:rotate(-15deg);
+    left: 500px;
+    bottom: 225px;
+    -webkit-text-stroke: 3px #f008b7;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}

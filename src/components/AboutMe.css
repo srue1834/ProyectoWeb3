@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.dibujo2 {
+    display: flex;
+    position: absolute;
+    width: 1260px;
+    top: 1100px;
+    left: -230px;
+    transform: rotate(-10deg);
+}
+.aboutMe {
+    display: flex;
+    position: absolute;
+    font-size: 180px;
+    color: white;
+    top: 1780px;
+    left: 50px;
+    height: auto;
+    font-family: 'Titillium Web', sans-serif;
+    font-style: italic;
+    -webkit-text-stroke: 6px #f008b7;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+.cable {
+    display: flex;
+    position: absolute;
+    width: 1250px;
+    top: 2130px;
+    left: 0px;
+}
+.mp3 {
+    display: flex;
+    position: absolute;
+    width: 900px;
+    top: 2280px;
+    left: 0px;
+    transform: rotate(-50deg);
+}
+
+.playlist {
+    display: flex;
+    position: absolute;
+    top: 2605px;
+    left: 460px;
+    transform: rotate(145deg);
+}
+.informacion {
+    position: absolute;
+    left: 0px;
+    top: 2300px;
+    border-radius: 10px;
+    /* background-color: #272727d0; */
+    padding: 350 720;
+}
+.nota {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    bottom: 480px;
+    left: 30px;
+    transform: rotate(-5deg);
+}
+.nota2 {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    bottom: 220px;
+    left: 400px;
+    transform: rotate(20deg);
+}
+.nota3 {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    bottom: 450px;
+    left: 750px;
+    transform: rotate(10deg);
+}
+.nota4 {
+    display: flex;
+    position: absolute;
+    width: 700px;
+    bottom: 180px;
+    left: 900px;
+    transform: rotate(-5deg);
+}
+.nota5 {
+    display: flex;
+    position: absolute;
+    width: 650px;
+    bottom: 70px;
+    left: -140px;
+    transform: rotate(50deg);
+}
+.contact {
+    position: absolute;
+    left: 0px;
+    top: 3100px;
+    padding: 200 720;
+    mix-blend-mode:multiply;
+    background-color: rgba(37, 37, 37);
+}
+.contactT1 {
+    display: flex;
+    position: absolute;
+    font-family: 'Mr Dafoe', cursive;
+    font-size: 180px;
+    color: #F975F7 ;
+    left: 600px;
+    top: 2770px;
+    -webkit-text-stroke: 3px #f008b7;
+    -webkit-filter: drop-shadow(2px 2px 20px #f008b7);
+}
+.git{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 3250px;
+    left: 400px;
+}
+.linked{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 3250px;
+    left: 600px;
+}
+.google{
+    display: flex;
+    position: absolute;
+    width: 200px;
+    top: 3250px;
+    left: 800px;
+}
+
